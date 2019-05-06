@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The EdgeRenderEngine can render the emails content for all three email types 1`] = `
+Object {
+  "html": "<strong>
+  HEY bahdcoder
+</strong>
+<br>
+RESET YOUR PASSWORD
+",
+  "text": "hey bahdcoder, please RESET YOUR PASSWORD.
+",
+  "watchHtml": "hey bahdcoder, please RESET YOUR PASSWORD.
+",
+}
+`;
+
+exports[`The EdgeRenderEngine it instantiates properly 1`] = `
+EdgeRenderEngine {
+  "Config": Object {
+    "viewEngine": "edge",
+  },
+  "enginesExtensionsMap": Object {
+    "edge": "edge",
+    "handlebars": "hbs",
+  },
+}
+`;

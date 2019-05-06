@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The base render engine can be instantiated properly 1`] = `
+BaseRenderEngine {
+  "Config": Object {
+    "viewEngine": "handlebars",
+  },
+  "enginesExtensionsMap": Object {
+    "edge": "edge",
+    "handlebars": "hbs",
+  },
+}
+`;
+
+exports[`The base render engine can get views content based on viewEngine and views config variables 1`] = `
+Object {
+  "html": "<strong>
+  HEY {{ username }}
+</strong>
+<br>
+CONFIRM YOUR EMAIL
+",
+  "text": "hey {{ username }}, please confirm your email.
+",
+  "watchHtml": "hey {{ username }}, please confirm your email.
+",
+}
+`;
+
+exports[`The base render engine can get views content based on viewEngine and views config variables 2`] = `
+Object {
+  "html": "<strong>
+  HEY {{ username }}
+</strong>
+<br>
+RESET YOUR PASSWORD
+",
+  "text": "hey {{ username }}, please RESET YOUR PASSWORD.
+",
+  "watchHtml": "hey {{ username }}, please RESET YOUR PASSWORD.
+",
+}
+`;
+
+exports[`The base render engine can gracefully ignore mail templates that are not found 1`] = `
+"Hello. Your payment of <strong>\${{ price }}</strong> has been received.
+"
+`;

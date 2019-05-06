@@ -1,0 +1,50 @@
+{
+  "name": "friendly-mail",
+  "version": "1.0.0",
+  "description": "Mail provider for elegantly sending emails in node js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write './**/*.{js,json}'"
+  },
+  "bin": {
+    "friendlymail": "bin/friendlymail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahdcoder/friendly-mail.git"
+  },
+  "keywords": [
+    "node.js",
+    "mail"
+  ],
+  "author": "Kati Frantz",
+  "bugs": {
+    "url": "https://github.com/bahdcoder/friendly-mail/issues"
+  },
+  "homepage": "https://github.com/bahdcoder/friendly-mail#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "dotenv": "^6.0.0",
+    "jest": "^24.5.0",
+    "mailparser": "^2.3.4",
+    "nodemailer-ses-transport": "^1.5.1",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "@adonisjs/generic-exceptions": "^2.0.1",
+    "chalk": "^2.4.2",
+    "clone": "^2.1.2",
+    "commander": "^2.19.0",
+    "debug": "^4.0.1",
+    "edge.js": "^1.1.4",
+    "form-data": "^2.3.2",
+    "get-stream": "^4.0.0",
+    "got": "8.3.0",
+    "handlebars": "^4.1.1",
+    "mkdirp": "^0.5.1",
+    "nodemailer": "^4.6.8",
+    "slugify": "^1.3.4"
+  }
+}

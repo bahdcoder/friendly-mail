@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Mail class can build a complete mail message 1`] = `
+Object {
+  "alternatives": Array [
+    Object {
+      "content": "**Hello**",
+      "contentType": "text/x-web-markdown",
+    },
+  ],
+  "attachments": Array [
+    Object {
+      "cid": "logo",
+      "path": "logo.png",
+    },
+    Object {
+      "content": "hello text",
+      "filename": "hello.txt",
+    },
+    Object {
+      "contentTpe": "plain/text",
+      "path": "absolute/path/to/file.jpg",
+    },
+  ],
+  "bcc": Array [
+    Object {
+      "address": "admin@app.com",
+      "name": "Administrator",
+    },
+  ],
+  "cc": Array [
+    Object {
+      "address": "john@doe.com",
+      "name": "John doe",
+    },
+  ],
+  "extras": undefined,
+  "from": Array [
+    Object {
+      "address": "foo@bar.com",
+      "name": "Foo Bar",
+    },
+  ],
+  "inReplyTo": "10122121112",
+  "replyTo": Array [
+    Object {
+      "address": "anne@meyner.com",
+      "name": "Anne Meyner",
+    },
+  ],
+  "sender": Array [
+    Object {
+      "address": "mark@meyner.com",
+      "name": "Mark Meyner",
+    },
+  ],
+  "to": Array [
+    Object {
+      "address": "jane@doe.com",
+      "name": "Jane Doe",
+    },
+  ],
+}
+`;

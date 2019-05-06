@@ -1,0 +1,13 @@
+coverage
+node_modules
+.DS_Store
+npm-debug.log
+.travis.yml
+.editorconfig
+benchmarks
+.idea
+out
+.nyc_output
+.env
+__tests__
+__mocks__

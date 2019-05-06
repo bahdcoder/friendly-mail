@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Request class can be instantiated properly 1`] = `
+Request {
+  "_auth": null,
+  "_basicAuth": null,
+  "_headers": Object {},
+  "_isJson": false,
+}
+`;
+
+exports[`The Request class can reject errors if post request fails 1`] = `""`;

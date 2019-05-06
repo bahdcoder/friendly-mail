@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The HandlebarsRenderEngine can render the emails content for all three email types 1`] = `
+Object {
+  "html": "<strong>
+  HEY bahdcoder
+</strong>
+<br>
+CONFIRM YOUR EMAIL
+",
+  "text": "hey bahdcoder, please confirm your email.
+",
+  "watchHtml": "hey bahdcoder, please confirm your email.
+",
+}
+`;
+
+exports[`The HandlebarsRenderEngine it instantiates properly 1`] = `
+HandleBarsRenderEngine {
+  "Config": Object {
+    "viewEngine": "handlebars",
+  },
+  "enginesExtensionsMap": Object {
+    "edge": "edge",
+    "handlebars": "hbs",
+  },
+}
+`;
