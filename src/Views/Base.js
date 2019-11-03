@@ -92,6 +92,8 @@ class BaseRenderEngine {
    *
    */
   _getViewsPath(view) {
+    if (this.Config.useCustomMailPaths) return `${this.Config.views}/${view}`
+
     const currentWorkingDirectory = process.cwd()
 
     return Path.resolve(

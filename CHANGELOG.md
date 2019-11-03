@@ -1,5 +1,12 @@
+<a name="1.0.2"></a>
+# 1.0.2 (2019-11-03)
+
+### Features
+
+* Add useCustomMailPaths config for specifying full path to mail
+
 <a name="1.0.1"></a>
-# 1.0.1 (2019-03-24)
+# 1.0.1 (2019-11-03)
 
 ### Features
 
