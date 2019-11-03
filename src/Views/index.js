@@ -7,8 +7,10 @@
  * file that was distributed with this source code.
  */
 
+const Edge = require('./Edge')
 const HandleBars = require('./Handlebars')
 
 module.exports = {
-  handlebars: HandleBars
+  edge: Edge,
+  handlebars: HandleBars,
 }

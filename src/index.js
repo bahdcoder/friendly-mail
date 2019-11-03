@@ -21,8 +21,11 @@ class Mail {
   /**
    * Initialize the configuration file for this mail
    * Set the config file and driver for mail.
+   * 
+   * The second argument is another way of providing the configuration
+   * for sending the mail
    */
-  constructor(template = null) {
+  constructor(template = null, config = null) {
     /**
      * Sets the template to use for this mail.
      *
@@ -35,7 +38,7 @@ class Mail {
      *
      * @type {Object}
      */
-    this.Config = this._getConfig()
+    this.Config = config ? config : this._getConfig()
 
     /**
      * Set the view engine to be used for mails

@@ -1,6 +1,15 @@
 const Mail = require('../../src/index')
 
 describe('The Mail class', () => {
+  it('instantiates with preferred config if its passed as second argument ', () => {
+    const config = require('../../mail.config')
+    config.TEST_CONFIG = 'TEST_CONFIG'
+  
+    const mail = new Mail('confirm-account', config)
+
+    expect(mail.Config.TEST_CONFIG).toBe('TEST_CONFIG')
+  })
+
   it('instantiates with a custom config', () => {
     process.env.MAIL_CONFIG_FILE_PATH =
       '__tests__/__mocks__/config/custom-mail.config.js'
