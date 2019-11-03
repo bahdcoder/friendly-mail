@@ -1,6 +1,6 @@
 {
   "name": "friendly-mail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mail provider for elegantly sending emails in node js.",
   "main": "index.js",
   "scripts": {
